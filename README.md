@@ -4,6 +4,8 @@
 
 Relógios de vários fusos horários direto na área de trabalho do Windows. Cada cidade aparece como um pequeno widget, que você pode arrastar para onde quiser. Ele mostra a hora local, a diferença de horas em relação ao seu fuso e se é dia (☀) ou noite (☾) naquele lugar.
 
+![Relógios na área de trabalho](docs/01-relogios.png)
+
 Não precisa instalar nada: é um único arquivo `.exe`, e o Python já vai embutido.
 
 ## Download e primeira execução
@@ -22,6 +24,8 @@ Na primeira vez aparecem quatro relógios de exemplo: São Paulo, Nova York, Lon
 
 **Menu:** clique com o **botão direito** em qualquer relógio para ver as opções:
 
+![Menu do botão direito](docs/02-menu.png)
+
 | Opção | O que faz |
 |---|---|
 | Configurar localidades… | Adiciona, edita, oculta ou remove cidades |
@@ -39,11 +43,15 @@ Na primeira vez aparecem quatro relógios de exemplo: São Paulo, Nova York, Lon
 3. Em **Buscar cidade**, digite o nome de qualquer cidade do mundo. A busca online usa o [Open-Meteo](https://open-meteo.com/). Sem internet, aparece só a lista de fusos do próprio programa.
 4. Escolha a cidade, ajuste o **Nome exibido** se quiser e clique em **Salvar**.
 
+![Tela de localidades buscando Lisboa](docs/03-localidades.png)
+
 Para editar uma cidade, selecione-a na lista. Para ocultá-la ou mostrá-la de novo, clique duas vezes nela.
 
 ### Converter um horário
 
 Na aba **Converter horário**, digite a hora (`14:30` ou `14h30`), a data (`25/12` ou `25/12/2026`) e o fuso de origem. O programa mostra o horário correspondente em todas as suas cidades. O botão **Agora** volta para o horário atual.
+
+![Conversor de horário](docs/04-converter.png)
 
 ## Abrir junto com o Windows
 
