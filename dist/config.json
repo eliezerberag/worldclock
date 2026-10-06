@@ -1,0 +1,77 @@
+{
+  "always_on_top": false,
+  "clocks": [
+    {
+      "label": "Tampa - USA",
+      "tz": "America/New_York",
+      "x": 2614,
+      "y": 585
+    },
+    {
+      "label": "Park City Utah - USA",
+      "tz": "America/Denver",
+      "x": 2614,
+      "y": 734
+    },
+    {
+      "label": "Toronto - Canadá",
+      "tz": "America/Toronto",
+      "x": 2614,
+      "y": 883
+    },
+    {
+      "label": "Lima - Peru",
+      "tz": "America/Lima",
+      "x": 2614,
+      "y": 1032
+    },
+    {
+      "label": "Bogotá - Colombia",
+      "tz": "America/Bogota",
+      "x": 2926,
+      "y": 585
+    },
+    {
+      "label": "Brussels - Bélgica",
+      "tz": "Europe/Brussels",
+      "x": 2926,
+      "y": 734
+    },
+    {
+      "label": "Joanesburgo - Africa do Sul",
+      "tz": "Africa/Johannesburg",
+      "x": 2926,
+      "y": 883
+    },
+    {
+      "label": "Tel Aviv - Israel",
+      "tz": "Asia/Jerusalem",
+      "x": 2926,
+      "y": 1032
+    },
+    {
+      "label": "Moscow - Russia",
+      "tz": "Europe/Moscow",
+      "x": 3238,
+      "y": 585
+    },
+    {
+      "label": "Sydney - Austrália",
+      "tz": "Australia/Sydney",
+      "x": 3238,
+      "y": 734
+    },
+    {
+      "label": "Bangkok - Thailandia",
+      "tz": "Asia/Bangkok",
+      "x": 3238,
+      "y": 883
+    },
+    {
+      "label": "Cidade do México - México",
+      "tz": "America/Mexico_City",
+      "x": 3238,
+      "y": 1032
+    }
+  ]
+}
