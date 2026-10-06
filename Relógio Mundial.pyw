@@ -752,6 +752,10 @@ class App:
 
         self.root = tk.Tk()
         self.root.withdraw()
+        # Ícone usado por todas as janelas; empacotado, fica em sys._MEIPASS.
+        icon = Path(getattr(sys, "_MEIPASS", APP_DIR)) / "icone.ico"
+        if icon.exists():
+            self.root.iconbitmap(default=str(icon))
         self.scale = self.root.winfo_fpixels("1i") / 96
         self.config = load_config()
         self.on_top_var = tk.BooleanVar(value=self.config["always_on_top"])
